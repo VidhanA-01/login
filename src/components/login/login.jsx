@@ -15,6 +15,14 @@ export class Login extends React.Component {
             <img src={loginImg} alt="" />
           </div>
           <div className="form">
+          <div className="form-group">
+            <div className="radio-button">
+            <input type="radio" id="member" name="login-type" />
+              <label htmlFor="member">Member</label>
+              <input type="radio" name="login-type" id="admin"  />
+              <label htmlFor="admin">Admin</label>
+            </div>
+            </div>
             <div className="form-group">
               <label htmlFor="username">Username</label>
               <input type="text" name="username" placeholder="username" />

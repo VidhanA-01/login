@@ -57,6 +57,13 @@
             box-shadow: 0px 0px 12px 0.8px #3474dbb2;
           }
         }
+        .radio-button{
+          display: flex;
+          input{
+            height:17px;
+            min-width: 4em;
+          }
+        }
       }
     }
   }
